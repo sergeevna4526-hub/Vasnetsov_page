@@ -4,7 +4,7 @@
     max-width: 900px;
     /* padding: 0 10px; */
     text-align: center;
-    padding: 10px 60px;
+    padding: 20px 30px;
     color: var(--color-main-black);
 
 }
@@ -20,6 +20,7 @@
     height: 500px;
     border-radius: 45px;
     object-fit: cover;
+    margin-top: 20px;
 }
 .history-text {
     margin-top: 30px;
