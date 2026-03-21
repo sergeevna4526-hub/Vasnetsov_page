@@ -1,0 +1,50 @@
+.contacts {
+    padding: 65px 20px 63px;
+     text-align: center;
+     color: var(--color-main-black);
+}
+
+.contacts-title {
+     font-size: 30px;
+    font-weight: 600; 
+    margin: 10px 0 20px 0;
+}
+
+.contacts-button {
+    width: 210px;
+    height: 42px;
+    background-color: var( --bg-main-beige);
+    
+    margin: 0 auto;
+    display: block;
+    justify-content:center;
+    align-items: center;
+    border: none;
+    border-radius: 21px;
+    
+
+}
+.contacts-button :hover {
+    opacity: .8;
+}
+
+.botton-link {
+    color: rgb(49, 29, 29);
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+.contacts-info {
+    color: rgba(175, 175, 175, 0.925);
+    margin: 15px 0 35px 0;
+     font-size: 15px;
+    font-weight: 400;
+}
+
+@media (max-width: 400px ) {
+    .contacts-info {
+        font-size: 13px;
+        
+    }
+}
